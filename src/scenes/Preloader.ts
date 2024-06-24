@@ -17,6 +17,11 @@ export default class Preloader extends Phaser.Scene
             TextureKeys.Background, 
             'house/bg_repeat_340x640.png'
         )
+
+        this.load.image(
+            TextureKeys.MouseHole,
+            'house/object_mousehole.png'
+        )
         
         this.load.atlas(
             TextureKeys.RocketMouse, 
